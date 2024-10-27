@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Social Blocker",
+  "version": "1.0",
+  "description": "Blocks LinkedIn and Instagram",
+  "permissions": ["declarativeNetRequest"],
+  "host_permissions": [
+    "*://www.linkedin.com/*",
+    "*://www.instagram.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
